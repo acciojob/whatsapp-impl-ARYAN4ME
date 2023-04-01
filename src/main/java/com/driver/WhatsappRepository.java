@@ -73,7 +73,7 @@ public class WhatsappRepository {
             }
             throw new Exception("you are not aloud to send the message");
         }
-        throw new Exception("Group dose not existGroup dose not existGroup dose not exist");
+        throw new Exception("Group dose not exist");
     }
     public String changeAdmin(User approver, User user, Group group) throws Exception{
 
